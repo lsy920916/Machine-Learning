@@ -9,7 +9,6 @@ y = zeros(N,1);
 v_h = zeros(1,H);
 v_o = zeros(1,O);
 
-% Git test
 for i = 1:N
     hog = HOG(X(i,:));
     X_hog = [hog',1];
